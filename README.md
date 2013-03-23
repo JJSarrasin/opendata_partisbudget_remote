@@ -1,9 +1,17 @@
 OpenData Partis-budget Remote
 ============================
 
-Mini application developed during a 12 hours hackaton for driving a graphical representation on websocket .
+Mini application developed during a 12 hours hackaton in Sierre for driving a graphical representation on websocket.
 
 http://make.opendata.ch/wiki/project:partisbudgets
+
+Available commands
+==================
+- Place the smartphone in direction of the sky: it sends "UP" command
+- Place the smartphone in direction of the bottom: it sends "DOWN" command
+- Turn the smartphone on the left: it sends "LEFT" command
+- Turn the smartphone on the right: it sends "RIGHT" command
+- Select a canton in the list: it sends an abbreviation of the canton (i.e "VS" for Valais)
 
 ![Screenshot](https://github.com/JJSarrasin/opendata_partisbudget_remote/blob/master/screenshot.png?raw=true)
 
