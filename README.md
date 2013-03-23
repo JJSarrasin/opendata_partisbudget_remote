@@ -5,6 +5,7 @@ Mini application developed during a 12 hours hackaton for driving a graphical re
 
 http://make.opendata.ch/wiki/project:partisbudgets
 
+![Screenshot](https://github.com/JJSarrasin/opendata_partisbudget_remote/blob/master/screenshot.png?raw=true)
 
 Minimal server in Node.JS:
 ```
