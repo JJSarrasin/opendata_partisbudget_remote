@@ -7,6 +7,7 @@ http://make.opendata.ch/wiki/project:partisbudgets
 
 
 Minimal server in Node.JS:
+```
 var app = require('http').createServer(handler)
   , io = require('socket.io').listen(app)
   , fs = require('fs')
@@ -34,9 +35,10 @@ io.sockets.on('connection', function (socket) {
     	socket.broadcast.emit(data);
   	});
 });
-
+```
 
 Minimal client in Node.JS:
+```
 <script src="/socket.io/socket.io.js"></script>
 <script>
   	var socket = io.connect('http://localhost');
@@ -49,3 +51,4 @@ Minimal client in Node.JS:
     	});
   	});
 </script>
+```
